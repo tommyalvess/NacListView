@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PizzaNow</string>
+    <string name="pizza_now">Pizza Now</string>
+    <string name="prefer_ncias">Preferências</string>
+    <string name="abrir">abrir</string>
+    <string name="fechar">fechar</string>
+    <string name="des">descricao</string>
+    <string name="txtDes">txtDes</string>
+    <string name="txtDes1">txtDes1</string>
+    <string name="txtDes2">txtDes2</string>
+    <string name="txtDes3">txtDes3</string>
+    <string name="txtDes4">txtDes4</string>
+    <string name="txtDes5">txtDes5</string>
+</resources>

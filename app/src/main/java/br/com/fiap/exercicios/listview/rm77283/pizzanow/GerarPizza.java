@@ -11,17 +11,17 @@ public class GerarPizza {
 
     public static List<Pizzas> listPizzas(){
         List<Pizzas> pizzas = new ArrayList<>();
-        pizzas.add(new Pizzas(R.drawable.calabresacatupiry, "Calabresa c/ Catupiry", "55,00", R.string.txtDes, "4 Estrelas"));
+        pizzas.add(new Pizzas(R.drawable.calabresacatupiry, "Calabresa c/ Catupiry", "55,00", R.string.txtDes, 4));
 
-        pizzas.add(new Pizzas(R.drawable.catupiry, "Catupiry", "45,00", R.string.txtDes1, "3 Estrelas"));
+        pizzas.add(new Pizzas(R.drawable.catupiry, "Catupiry", "45,00", R.string.txtDes1, 3));
 
-        pizzas.add(new Pizzas(R.drawable.romeujulieta, "Romeu & Julieta", "40,00", R.string.txtDes2, "5 Estrelas"));
+        pizzas.add(new Pizzas(R.drawable.romeujulieta, "Romeu & Julieta", "40,00", R.string.txtDes2, 5));
 
-        pizzas.add(new Pizzas(R.drawable.marguerita, "Marguerita", "55,00", R.string.txtDes3, "5 Estrelas"));
+        pizzas.add(new Pizzas(R.drawable.marguerita, "Marguerita", "55,00", R.string.txtDes3, 2));
 
-        pizzas.add(new Pizzas(R.drawable.portuguesa, "Portuguesa", "35,00", R.string.txtDes4, "4 Estrelas "));
+        pizzas.add(new Pizzas(R.drawable.portuguesa, "Portuguesa", "35,00", R.string.txtDes4, 1));
 
-        pizzas.add(new Pizzas(R.drawable.presuntomussarela, "Presunto c/ Mussarela", "45,00", R.string.txtDes5, "5 Estrelas"));
+        pizzas.add(new Pizzas(R.drawable.presuntomussarela, "Presunto c/ Mussarela", "45,00", R.string.txtDes5, 5));
 
         return pizzas;
     }

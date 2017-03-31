@@ -5,10 +5,88 @@
     <string name="abrir">abrir</string>
     <string name="fechar">fechar</string>
     <string name="des">descricao</string>
-    <string name="txtDes">txtDes</string>
-    <string name="txtDes1">txtDes1</string>
-    <string name="txtDes2">txtDes2</string>
-    <string name="txtDes3">txtDes3</string>
-    <string name="txtDes4">txtDes4</string>
-    <string name="txtDes5">txtDes5</string>
+    <string name="txtDes">
+        1kg de farinha de trigo
+        20g de sal
+        10g de açúcar
+        50ml de azeite
+        12g de fermento biológico
+        50ml de molho de tomate
+        1 tomate fresco
+        100g de parmesão ralado
+        200g de lingüiça calabresa fatiada
+        100g de cebola frita
+        Orégano
+        Queijo catupiry
+    </string>
+    <string name="txtDes1">
+        Orégano.
+        Pimenta do reino.
+        Queijo catupiry.
+        Sal.
+        Tomate.
+        Massa de pizza.
+        Azeitonas pretas.
+    </string>
+    <string name="txtDes2">
+        1 disco de pizza
+        Pedacinhos de goiabada
+        150 g de queijo mussarela ralado grosso ou moído
+        Canela em pó
+    </string>
+    <string name="txtDes3">
+        1 colher (chá) de fermento biológico seco
+        2/3 xícara de água morna (45ºC)
+        2 xícaras de farinha de trigo
+        1 colher (chá) de sal
+        2 colheres (sopa) de azeite
+        <br>
+            <i><b>Cobertura</b></i>
+        280 g de molho de tomate
+        450 g de queijo mussarela ralado
+        1/2 xícara de queijo parmesão ralado
+        1/4 xícara de manjericão fresco picado
+        1 colher (sopa) de orégano seco
+        1 colher (chá) de pimenta calabresa
+        2 colheres (sopa) de azeite
+        </br>
+    </string>
+    <string name="txtDes4">
+        2 xícaras (chá) de farinha de trigo
+        1 colher (sopa) de fermento em pó
+        1 xícara (chá) de água
+        4 colheres (sopa) de óleo
+        <br>
+            <i><b>Cobertura</b></i>
+        150 g de queijo mussarela
+        50 g de presunto
+        1 tomate em rodelas
+        1 ovo cozido
+        1 cebola picada
+        Molho de tomate
+        Azeitonas para decorar, orégano e tempero verde a gosto.</br>
+    </string>
+    <string name="txtDes5">
+        <b>MASSA</b>
+        2 gemas
+        1 colher de chá de sal
+        1/2 xícara de chá de queijo ralado
+        8 colheres de sopa de óleo
+        3/4 de xícara de chá de leite
+        3 xícaras de chá de amido de milho
+        1 xícara de chá de farinha de trigo
+        2 colheres de chá de fermento em pó
+        <br></br>
+            <i><b>Cobertura</b></i>
+            3 tomates grandes maduros em fatias
+            Sal e orégano a gosto
+            300 g de mussarela em fatias
+            1 xícara de chá de azeitonas
+            300 g de presunto em fatias
+
+
+    </string>
+    <string name="txtTela">Digite os segudos de duração da tela inicial.</string>
+    <string name="txtAtivado">Ativar Splashscreen</string>
+    <string name="txtDesativado">Desativar Splashscreen</string>
 </resources>

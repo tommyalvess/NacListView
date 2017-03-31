@@ -3,9 +3,14 @@ package br.com.fiap.exercicios.listview.rm77283.pizzanow;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class PizzaInfActivity extends AppCompatActivity {
@@ -13,6 +18,8 @@ public class PizzaInfActivity extends AppCompatActivity {
     ImageView imgPizza;
     TextView txtSabor;
     TextView txtDescricao;
+    TextView txtValor;
+    RatingBar pontuacao;
 
 
     @Override
@@ -23,7 +30,7 @@ public class PizzaInfActivity extends AppCompatActivity {
         //Pegando os dados do beans
         Pizzas pizza = (Pizzas) getIntent().getExtras().get("pizza");
 
-        //Colocando a seta
+        //Colocando a seta e colocando os valores nas txt
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setTitle(pizza.getSabor());
@@ -31,14 +38,29 @@ public class PizzaInfActivity extends AppCompatActivity {
         imgPizza = (ImageView)findViewById(R.id.imgPizza);
         txtSabor = (TextView)findViewById(R.id.txtSabor);
         txtDescricao = (TextView)findViewById(R.id.txtDescricao);
-        //txtPontuacao = (TextView)findViewById(R.id.txtPontuacao);
+        txtValor = (TextView)findViewById(R.id.txtValor);
+        RatingBar pontuacao = (RatingBar)findViewById(R.id.ratingBar1);
 
         imgPizza.setImageResource(pizza.getImg());
         txtSabor.setText(pizza.getSabor());
         txtDescricao.setText(pizza.getDes());
-        //txtPontuacao.setText(pizza.getPontuacao());
+        txtValor.setText(pizza.getValor());
+        pontuacao.setRating(pizza.getPontuacao());
+
+        
 
     }
+
+    public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromTouch) {
+
+        final int pontuacao = ratingBar.getNumStars();
+        ratingBar.getRating() ;
+        final float ratingBarStepSize = ratingBar.getStepSize();
+
+    }
+
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_pizza_inf"
@@ -21,16 +27,35 @@
         tools:text="Nome da Pizza"
         android:id="@+id/txtSabor"
         android:layout_gravity="center_horizontal"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes:"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Descrição da pizza"
         android:id="@+id/txtDescricao"
+        android:textStyle="italic"
+        android:textAlignment="center"
         android:text="@string/txtDes"
         android:layout_gravity="center_horizontal"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,17 +63,10 @@
         tools:text="Valor da pizza"
         android:id="@+id/txtValor"
         android:layout_gravity="center_horizontal"
-        android:textSize="20sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Pontuação"
-        android:id="@+id/txtPontuacao"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20sp"/>
-
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
 
 
 
 </LinearLayout>
+</ScrollView>

@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PizzaNowActivity" />
-        <activity android:name=".PizzaInfActivity"></activity>
+        <activity android:name=".PizzaInfActivity" />
+        <activity android:name=".PreferenciasActivity"></activity>
     </application>
 
 </manifest>
